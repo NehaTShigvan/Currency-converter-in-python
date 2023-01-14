@@ -13,4 +13,4 @@ print("The available options to convert currency are as follows:\n")
 currency = input("Enter the name of a currency: ")    
 
 print(f"{amount} INR is equal to {amount*float(dict[currency])} {currency}")
-#type cast -->since dict value is in string data type it should be converted into float 
+#type cast -->since dict value is string data type it should be converted into float 
